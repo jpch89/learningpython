@@ -1,2 +1,5 @@
-assert False
-print('执行完毕啦')
+try:
+    raise TypeError
+except (IndexError, TypeError):
+    print()
+
